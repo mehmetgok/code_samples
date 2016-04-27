@@ -7,7 +7,9 @@ gcc time.c -o timetest
 komut satırı kullanılmaktadır.
 
 Referanslar:
+
 http://stackoverflow.com/questions/588307/c-obtaining-milliseconds-time-on-linux-clock-doesnt-seem-to-work-properl
+
 http://stackoverflow.com/questions/4217037/catch-ctrl-c-in-c
 
 # test1.c
@@ -19,5 +21,30 @@ Program dosyasını derlemek için:
 gcc test1.c -lncurses -o test1 -lpthread
 
 komut satırı kullanılmaktadır.
+
+# sqlitetest.c
+
+Bu program ile pre-emptive çalışan bir çekirdek ile delayus fonksiyonu test edilmiş ve gerçek zaman testi Linux gettime ile yapılmıştır. Her adımda zaman değeri tabloya yazılmış ve sistemin gerçek zaman cevabı irdelenmiştir.
+
+Ubuntu üzerinde sqlite ve dev kütüphanelerini kurmak için.
+
+sudo apt-get install sqlite3
+sudo apt-get install libsqlite3-dev
+
+komut satırları kullanılır. Programın kaynak kodunu derlemek için:
+
+
+
+
+Referanslar:
+
+http://stackoverflow.com/questions/18776812/problems-linking-to-sqlite3-h-with-gcc
+
+-- SQLite ile hızlı veri insertion:
+
+http://blog.quibb.org/2010/08/fast-bulk-inserts-into-sqlite/
+
+
+
 
 
