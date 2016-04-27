@@ -8,4 +8,12 @@ komut satırı kullanılmaktadır.
 
 # test1.c
 
+Bu program ile ncurses ve posix thread kütüphaneleri kullanarak basit thread uygulaması yapılmıştır. Oluşturulan thread ncurses ile çalışmakta ve sonlandırılmaktadır.
+
+Program dosyasını derlemek için:
+
+gcc test1.c -lncurses -o test1 -lpthread
+
+komut satırı kullanılmaktadır.
+
 
