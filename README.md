@@ -12,6 +12,10 @@ http://stackoverflow.com/questions/588307/c-obtaining-milliseconds-time-on-linux
 
 http://stackoverflow.com/questions/4217037/catch-ctrl-c-in-c
 
+Linux'ta milisaniye düzeyinde zaman almak için:
+
+http://stackoverflow.com/questions/18650057/how-to-calculate-milliseconds-using-timeval-structure
+
 # test1.c
 
 Bu program ile ncurses ve posix thread kütüphaneleri kullanarak basit thread uygulaması yapılmıştır. Oluşturulan thread ncurses ile çalışmakta ve sonlandırılmaktadır.
