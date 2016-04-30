@@ -22,9 +22,13 @@ Bu program ile ncurses ve posix thread kütüphaneleri kullanarak basit thread u
 
 Program dosyasını derlemek için:
 
-gcc test1.c -lncurses -o test1 -lpthread
+```
+gcc test1.c -o test1 -lpthread -lncurses
+```
 
-komut satırı kullanılmaktadır.
+komut satırı kullanılmaktadır. ncurses kütüphanesinin kurulması için 
+
+> sudo apt-get install libncurse libncurses-dev
 
 # sqlitetest.c
 
