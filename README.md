@@ -28,7 +28,7 @@ gcc test1.c -o test1 -lpthread -lncurses
 
 komut satırı kullanılmaktadır. ncurses kütüphanesinin kurulması için 
 
-> sudo apt-get install libncurses libncurses-dev
+> sudo apt-get install libncurses5 libncurses-dev
 
 # sqlitetest.c
 
