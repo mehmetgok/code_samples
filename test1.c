@@ -30,9 +30,8 @@ int main()
 		
 	pthread_create(&th1, NULL, (void *) &readSensors, NULL);
 		
-	while (1) {
-		
-		
+	while (1) 
+	{	
 		
 		ch = getch();			/* If raw() hadn't been called
 					 * we have to press enter before it
@@ -59,7 +58,7 @@ int main()
 			attroff(A_BOLD);
 		
 			refresh();		
-	}
+		}
 	
 	
 			/* Print it on to the real screen */
