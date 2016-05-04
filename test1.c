@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h> /* usleep */
+#include <unistd.h> /* for usleep */
 
 #include <ncurses.h>
 #include <pthread.h>
