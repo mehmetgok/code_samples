@@ -41,6 +41,9 @@ sudo apt-get install libsqlite3-dev
 
 komut satırları kullanılır. Programın kaynak kodunu derlemek için:
 
+# queue_test.cpp
+
+Bu program örneği C++ ile FIFO kuyruk çalışmasının nasıl yapıldığını göstermektedir.
 
 
 
