@@ -36,8 +36,8 @@ Bu program ile pre-emptive çalışan bir çekirdek ile delayus fonksiyonu test 
 
 Ubuntu üzerinde sqlite ve dev kütüphanelerini kurmak için.
 
-sudo apt-get install sqlite3
-sudo apt-get install libsqlite3-dev
+> sudo apt-get install sqlite3
+> sudo apt-get install libsqlite3-dev
 
 komut satırları kullanılır. Programın kaynak kodunu derlemek için:
 
