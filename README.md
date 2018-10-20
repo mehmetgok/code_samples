@@ -26,9 +26,11 @@ Program dosyasını derlemek için:
 gcc test1.c -o test1 -lpthread -lncurses
 ```
 
-komut satırı kullanılmaktadır. ncurses kütüphanesinin kurulması için 
+komut satırı kullanılmaktadır. ncurses kütüphanesinin Ubuntu üzerinde kurulması için 
 
 > sudo apt-get install libncurses5 libncurses-dev
+
+komut satırı kullanılmaktadır.
 
 # sqlitetest.c
 
@@ -43,7 +45,6 @@ komut satırı kullanılır. Programın kaynak kodunu derlemek için:
 # queue_test.cpp
 
 Bu program örneği C++ ile FIFO kuyruk çalışmasının nasıl yapıldığını göstermektedir.
-
 
 
 Referanslar:
